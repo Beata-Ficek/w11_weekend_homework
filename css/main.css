@@ -1,0 +1,26 @@
+body {
+  font-family: 'Playfair Display', serif;
+  max-width: 500px;
+  margin: auto;
+}
+
+
+.main-container {
+  display: flex;
+  flex-direction:column;
+  justify-content: space-around;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container > div {
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.center {
+  text-align: center;
+}
